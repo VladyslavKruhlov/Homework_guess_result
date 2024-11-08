@@ -1,0 +1,12 @@
+{
+  "name": "homework-project",
+  "version": "1.0.0",
+  "description": "A project with functions checkProbabilityTheory",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "author": "Kruhlov Vladyslav",
+  "license": "ISC"
+}
