@@ -5,9 +5,9 @@
 які не містять літери «А» (великої або малої)
  */
 
-export function withoutA(str) {
+export function withoutAMoreThanSixLetters(str) {
+    const pattern = /\b[^aA\s]{6,}\b/g;
     if (str.length !==0) {
-        const pattern = /\b[^aA\s]{6,}\b/g;
         const words = str.match(pattern);
         const result = pattern.test(str);
         if (result===true) {
